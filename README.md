@@ -1,10 +1,10 @@
 # Quiz App
 
-This is a web application built with React that allows users to take quizzes on various subjects and test their tech knowledge. The application provides an interactive and engaging way to learn and assess understanding in different areas.
+This is a web application built with React that allows users to give quizzes on various subjects and test their tech knowledge. The application provides an interactive and engaging way to learn and assess understanding in different areas.
 
 ## Features
 
-- **Quiz Categories**: Users can choose from quiz categories such as DSA, DBMS, SQL, C++, and OOPS.
+- **Quiz**: Users can give comibined quiz categories such as DSA, DBMS, SQL, C++, and OOPS.
 - **Interactive Questions**: Each quiz presents questions with multiple-choice options.
 - **Real-time Scoring**: The application calculates and displays the user's score upon completion of the quiz.
 - **Animated Interface**: The user interface is enhanced with animations for a more engaging experience.
