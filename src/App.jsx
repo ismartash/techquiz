@@ -1,6 +1,6 @@
+import { motion } from 'framer-motion';
 import React, { useState } from 'react';
-    import { quizzes } from './data.js';
-    import { motion } from 'framer-motion';
+import { quizzes } from './data.js';
 
     function App() {
       const [selectedQuiz, setSelectedQuiz] = useState('');
@@ -101,7 +101,7 @@ import React, { useState } from 'react';
             animate="visible"
           >
             <h1>{selectedQuiz} Quiz</h1>
-            <button onClick={startQuiz}>Start Quiz</button>
+            <button onClick={startQuiz}>start now</button>
           </motion.div>
         );
       }
