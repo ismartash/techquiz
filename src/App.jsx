@@ -101,7 +101,7 @@ import { quizzes } from './data.js';
             animate="visible"
           >
             <h1>{selectedQuiz}</h1>
-            <button onClick={startQuiz}>start now</button>
+            <button onClick={startQuiz}>Start Quiz</button>
           </motion.div>
         );
       }
@@ -133,7 +133,7 @@ import { quizzes } from './data.js';
           initial="hidden"
           animate="visible"
         >
-          <h1>{selectedQuiz} Quiz</h1>
+          <h1>{selectedQuiz}</h1>
           <div className="question">
             <h2>{question.text}</h2>
             <ul className="options">
