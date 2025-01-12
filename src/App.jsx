@@ -100,7 +100,7 @@ import { quizzes } from './data.js';
             initial="hidden"
             animate="visible"
           >
-            <h1>{selectedQuiz} Quiz</h1>
+            <h1>{selectedQuiz}</h1>
             <button onClick={startQuiz}>start now</button>
           </motion.div>
         );
