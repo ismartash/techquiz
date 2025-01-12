@@ -1,0 +1,142 @@
+body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #f0f2f5, #e1e5ea);
+      color: #333;
+    }
+
+    .app {
+      background-color: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 90%;
+      max-width: 700px;
+      animation: fadeIn 0.5s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #2c3e50;
+    }
+
+    .quiz-selector {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .quiz-selector select {
+      padding: 12px;
+      border-radius: 6px;
+      border: 1px solid #ddd;
+      font-size: 1em;
+      color: #555;
+      cursor: pointer;
+      transition: border-color 0.3s ease;
+    }
+
+    .quiz-selector select:focus {
+      border-color: #007bff;
+      outline: none;
+    }
+
+    .question {
+      margin-bottom: 30px;
+      animation: slideIn 0.5s ease-out;
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateX(-20px);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+
+    .question h2 {
+      margin-bottom: 15px;
+      color: #34495e;
+    }
+
+    .options {
+      list-style: none;
+      padding: 0;
+    }
+
+    .options li {
+      margin-bottom: 15px;
+    }
+
+    .options label {
+      display: block;
+      padding: 15px;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      cursor: pointer;
+      background-color: #f9f9f9;
+      transition: background-color 0.3s ease, border-color 0.3s ease;
+    }
+
+    .options label:hover {
+      background-color: #f0f0f0;
+      border-color: #007bff;
+    }
+
+    .options input[type="radio"] {
+      margin-right: 10px;
+    }
+
+    button {
+      background-color: #007bff;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      display: block;
+      margin: 20px auto;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    .score {
+      text-align: center;
+      font-size: 1.3em;
+      margin-top: 30px;
+      color: #27ae60;
+      animation: scaleUp 0.4s ease-out;
+    }
+
+    @keyframes scaleUp {
+      from {
+        transform: scale(0.8);
+        opacity: 0;
+      }
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
